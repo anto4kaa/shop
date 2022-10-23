@@ -30,6 +30,7 @@ header{
 .main-items{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 50px;
 }
@@ -220,5 +221,21 @@ fieldset{
 
 }
 
+
+.rating{
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.main-items .arrow{
+    transition: 0.2s;
+    user-select: none;
+}
+
+.main-items .arrow:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 

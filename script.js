@@ -38,7 +38,7 @@ modalGift.onclick = function (event) {
 }
 
 const modalHelper = document.getElementById("helperModal") 
-const openBtnHelper = document.getElementById("helperBtn")
+const openBtnHelper = document.getElementById("tpBtn")
 const closeBtnHelper = document.getElementById("helperClose")
 
 // 
@@ -139,3 +139,9 @@ sendRatingBtn.addEventListener("click", function () {
     
 
 });
+
+function rand_tshirt() {
+
+    const arr = ["images/tshirt-3.jpg","images/tshirt-2.jpg","images/tshirt-1.jpg"]
+    console.log(arr)
+}
